@@ -1,0 +1,17 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+      @apply m-0 p-0 box-border;
+      font-family: 'Open Sans', sans-serif;
+    }
+    body {
+        background-color: #E3F2FD;
+      }
+      .bg-custom {
+        @apply bg-[#F7EFE5];
+      }
+  }
